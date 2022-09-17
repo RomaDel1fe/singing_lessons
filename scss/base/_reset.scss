@@ -27,9 +27,11 @@ footer, header, hgroup, menu, nav, section {
 
 body {
    line-height: 1;
-   font-family: 'Source Sans Pro', sans-serif;
    // background: #edf2f4;
-   height: 100vh;
+}
+html, body{
+   height: 100%;
+   font-family: 'Jura', sans-serif;
 }
 
 ol, ul {
