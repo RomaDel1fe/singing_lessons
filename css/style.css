@@ -341,7 +341,7 @@ a {
 }
 
 .about {
-  padding: 30px 0;
+  padding: 30px 0 60px;
   -webkit-box-shadow: inset 0px 5px 15px 2px rgba(18, 19, 20, 0.5);
           box-shadow: inset 0px 5px 15px 2px rgba(18, 19, 20, 0.5);
 }
@@ -379,8 +379,8 @@ a {
 }
 
 .card__img {
-  height: 400px;
-  width: 300px;
+  height: 500px;
+  width: 400px;
   overflow: hidden;
   margin: auto;
   border-radius: 5%;
@@ -419,6 +419,16 @@ a {
   margin-bottom: 5px;
 }
 
+@media (max-width: 920px) {
+  .about {
+    padding-bottom: 30px;
+  }
+  .card__img {
+    height: 400px;
+    width: 300px;
+  }
+}
+
 @media (max-width: 769px) {
   .info__title {
     font-size: 20px;
@@ -446,6 +456,9 @@ a {
 }
 
 @media (max-width: 426px) {
+  .title {
+    font-size: 25px;
+  }
   .about {
     padding: 20px 0;
   }
@@ -455,4 +468,89 @@ a {
   .about__info {
     padding: 20px 0 0;
   }
+}
+
+@media (max-width: 376px) {
+  .card__img {
+    height: 350px;
+    width: 250px;
+  }
+}
+
+.course {
+  padding: 30px 0;
+  background: #121314;
+  -webkit-box-shadow: 0px -5px 10px 2px rgba(18, 19, 20, 0.5);
+          box-shadow: 0px -5px 10px 2px rgba(18, 19, 20, 0.5);
+}
+
+.course__title .title {
+  color: #F09FFF;
+  margin: 0 0 30px 0;
+}
+
+.accordion__item {
+  margin: 0 0 10px 0;
+}
+
+.accordion__title {
+  position: relative;
+  padding: 15px 0;
+  cursor: pointer;
+  background: #F09FFF;
+}
+
+.accordion__title::before, .accordion__title::after {
+  content: "";
+  width: 10px;
+  height: 1px;
+  background: #121314;
+  position: absolute;
+  top: 27px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.accordion__title::before {
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+  left: 10px;
+}
+
+.accordion__title::after {
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+  left: 17.5px;
+}
+
+.accordion__title.active::before {
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+}
+
+.accordion__title.active::after {
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+.accordion__title h4 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #121314;
+  padding: 0 0 0 35px;
+  text-transform: uppercase;
+}
+
+.accordion__content {
+  display: none;
+  padding: 10px 15px 20px;
+  background: #F7D2FF;
+  -webkit-box-shadow: 0px 5px 5px -2px rgba(240, 159, 255, 0.71) inset;
+          box-shadow: 0px 5px 5px -2px rgba(240, 159, 255, 0.71) inset;
+}
+
+.accordion__content p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #121314;
 }
