@@ -1,0 +1,36 @@
+@media (max-width:769px){
+   .info__title{
+      font-size: 20px;
+   }
+   .info_description{
+      font-size: 18px;
+   }
+}
+
+@media (max-width:720px){
+   .about{
+      &__card{
+         flex: 0 0 100%;
+      }
+      &__info{
+         flex: 0 0 100%;
+         padding: 15px 0 0;
+      }
+   }
+   .info__contetn{
+      padding: 0 10px;
+   }
+}
+
+@media (max-width:426px){
+   .about{
+      padding: 20px 0;
+      &__title{
+         margin: 0 0 20px 0;
+      }
+      &__info{
+         padding: 20px 0 0;
+      }
+   }
+   
+}
