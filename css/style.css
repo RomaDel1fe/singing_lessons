@@ -288,15 +288,6 @@ a {
     background-size: 70%;
     background-position: -5% 40%;
   }
-  .content__info {
-    position: absolute;
-    padding-bottom: 0;
-    bottom: 20px;
-    right: 0;
-  }
-  .content__list {
-    margin-right: 20px;
-  }
   .blur {
     -webkit-filter: blur(2px);
             filter: blur(2px);
@@ -307,23 +298,6 @@ a {
   .content {
     background-size: 120%;
     background-position: -15px center;
-  }
-  .content__text {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 10px 0 0 0;
-  }
-  .content__text h1 {
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 280px;
-  }
-  .content__text p {
-    position: absolute;
-    bottom: 160px;
-    font-size: 25px;
-    max-width: 300px;
   }
   .content__info {
     position: absolute;
@@ -347,12 +321,5 @@ a {
     border-radius: 15px;
     -webkit-box-shadow: inset 0px 0px 15px rgba(240, 159, 255, 0.35);
             box-shadow: inset 0px 0px 15px rgba(240, 159, 255, 0.35);
-  }
-}
-
-@media (max-width: 376px) {
-  .content {
-    background-size: 140%;
-    background-position: -50px center;
   }
 }

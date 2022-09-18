@@ -4,15 +4,15 @@
       position: relative;
       background-size: 70%;
       background-position: -5% 40%;
-      &__info{
-         position: absolute;
-         padding-bottom: 0;
-         bottom: 20px;
-         right: 0;
-      }
-      &__list{
-         margin-right: 20px;
-      }
+      // &__info{
+      //    position: absolute;
+      //    padding-bottom: 0;
+      //    bottom: 20px;
+      //    right: 0;
+      // }
+      // &__list{
+      //    margin-right: 20px;
+      // }
    }
    .blur{
       filter: blur(2px);
@@ -23,24 +23,21 @@
    .content{
          background-size: 120%;
          background-position: -15px center;
-      & .container{
-         
-      }
-      &__text{
-         align-items: center;
-         padding: 10px 0 0 0;
-         & h1{
-            font-size: 50px;
-            text-align: center;
-            margin-bottom: 280px;
-         }
-         & p{
-            position: absolute;
-            bottom: 160px;
-            font-size: 25px;
-            max-width: 300px;
-         }
-      }
+   //    &__text{
+   //       align-items: center;
+   //       padding: 10px 0 0 0;
+   //       & h1{
+   //          font-size: 50px;
+   //          text-align: center;
+   //          margin-bottom: 280px;
+   //       }
+   //       & p{
+   //          position: absolute;
+   //          bottom: 160px;
+   //          font-size: 25px;
+   //          max-width: 300px;
+   //       }
+   //    }
       &__info{
          position: absolute;
          padding-bottom: 0;
@@ -58,8 +55,6 @@
       &__link{
          display: inline-block;
          font-size: 18px;
-         // color: #121314;
-         // background: #F7D2FF;
          padding: 15px 10px;
          border: 2px solid #F7D2FF;
          border-radius: 15px;
@@ -69,8 +64,8 @@
 }
 
 @media (max-width:376px){
-   .content{
-      background-size: 140%;
-      background-position: -50px center;
-   }
+   // .content{
+   //    background-size: 140%;
+   //    background-position: -50px center;
+   // }
 }
