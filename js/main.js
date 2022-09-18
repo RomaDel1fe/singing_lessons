@@ -4,3 +4,9 @@ $(document).ready(function(){
       $('body').toggleClass('lock')
    })
 })
+
+$(document).ready(function(){
+   $('.header__burger').click(function(event){
+      $('.content').toggleClass('blur')
+   })
+})
