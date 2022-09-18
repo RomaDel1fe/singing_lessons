@@ -288,6 +288,20 @@ a {
     background-size: 70%;
     background-position: -5% 40%;
   }
+  .content__info {
+    position: absolute;
+    padding-bottom: 0;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+  }
+  .content__list {
+    float: none;
+    margin: 0;
+  }
+  .content__list li {
+    margin-bottom: 10px;
+  }
   .blur {
     -webkit-filter: blur(2px);
             filter: blur(2px);
