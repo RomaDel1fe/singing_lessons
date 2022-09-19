@@ -11,9 +11,61 @@
          }
       }
    }
+   .features__item p{
+      font-size: 20px;
+   }
+}
+@media (max-width:720px){
+   .features__item{
+      flex: 0 0 50%;
+      margin-bottom: 20px;
+      &:nth-child(2n+2)::after{
+         display: none;
+      }
+      &:nth-child(3),
+      &:nth-child(4){
+         margin-bottom: 0;
+      }
+   }
 }
 @media (max-width:426px){
    .course__title{
       margin: 0 0 20px 0;
+   }
+   .features__item p{
+      font-size: 18px;
+   }
+}
+
+@media (max-width:376px){
+   .features__item{
+      flex: 0 0 100%;
+      margin-bottom: 10px;
+      padding-bottom: 15px;
+      &:nth-child(3){
+         margin-bottom: 10px;
+      }
+      &::before{
+         content: "";
+         display: inline-block;
+         position: absolute;
+         bottom: 0;
+         left: 50%;
+         width: 100px;
+         height: 2px;
+         transform: translateX(-50%);
+         background: #F7D2FF;
+         border-radius: 1px;
+         box-shadow: 0px 0px 15px rgba(240, 159, 255, 0.35);
+      }
+      &:last-child::before{
+         display: none;
+      }
+      &::after{
+         display: none;
+      }
+      & p{
+         font-size: 22px;
+      }
    }
 }
