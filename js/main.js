@@ -20,3 +20,18 @@ $(document).ready(function(){
       $(this).toggleClass('active').next().slideToggle(300);
    });
 });
+
+
+var minOffset = 290;
+  window.onscroll = function() { 
+    let has_class = document.body.classList.contains("is_scrolled");
+ 
+    if (minOffset < document.documentElement.scrollTop ) {
+      if (!has_class) {
+          document.body.classList.add("is_scrolled");
+      } 
+    } else if (has_class) {
+      document.body.classList.remove("is_scrolled")
+ 
+    } 
+  }
