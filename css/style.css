@@ -58,6 +58,11 @@ a {
   text-decoration: none;
 }
 
+.inner {
+  -webkit-transition: all 0.7s 0.3s linear;
+  transition: all 0.7s 0.3s linear;
+}
+
 .container {
   max-width: 1180px;
   margin: 0 auto;

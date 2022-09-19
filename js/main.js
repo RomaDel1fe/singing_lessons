@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
    $('.header__burger').click(function(event){
-      $('.content').toggleClass('blur')
+      $('.inner').toggleClass('blur')
    })
 })
 
