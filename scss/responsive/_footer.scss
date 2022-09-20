@@ -2,15 +2,16 @@
    .footer__list-nav li{
       margin-bottom: 15px;
    }
+   .footer__list-contacts li{
+      margin-bottom: 15px;
+   }
 }
 
 @media (max-width:376px){
    .footer__list-contacts{
       margin-bottom: 10px;
    }
-   .footer__list-contacts li{
-      margin-bottom: 15px;
-   }
+   
    .footer__contact{
       font-size: 18px;
    }
