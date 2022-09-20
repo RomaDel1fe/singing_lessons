@@ -33,7 +33,9 @@ html, body{
    height: 100%;
    font-family: 'Jura', sans-serif;
 }
-
+html{
+   scroll-behavior: smooth;
+}
 ol, ul {
    list-style: none;
 }
