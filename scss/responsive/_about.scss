@@ -1,0 +1,58 @@
+@media (max-width:920px){
+   .about{
+      padding-bottom: 30px;
+   }
+   .card__img{
+      height: 400px;
+      width: 300px;
+   }
+}
+
+@media (max-width:769px){
+   .info__title{
+      font-size: 20px;
+   }
+   .info_description{
+      font-size: 18px;
+   }
+   // .card__img{
+   //    height: 400px;
+   //    width: 300px;
+   // }
+}
+
+@media (max-width:720px){
+   .about{
+      &__card{
+         flex: 0 0 100%;
+      }
+      &__info{
+         flex: 0 0 100%;
+         padding: 15px 0 0;
+      }
+   }
+   .info__contetn{
+      padding: 0 10px;
+   }
+}
+
+@media (max-width:426px){
+   .title{
+      font-size: 25px;
+   }
+   .about{
+      padding: 60px 0 20px;
+      &__title{
+         margin: 0 0 20px 0;
+      }
+      &__info{
+         padding: 20px 0 0;
+      }
+   }
+}
+@media (max-width:376px){
+   .card__img{
+      height: 350px;
+      width: 250px;
+   }
+}
